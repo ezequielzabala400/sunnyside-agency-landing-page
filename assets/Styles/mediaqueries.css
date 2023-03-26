@@ -1,0 +1,230 @@
+@media (min-width: 425px) {
+
+    #transform, #stand-out{
+        height: 600px;
+    }
+
+    .transform__img, .stand-out__img{
+        height: 500px;
+    }
+
+    #graphic{
+        background-image: url(../imgs/desktop/image-graphic-design.jpg);
+    }
+
+    #photography{
+        background-image: url(../imgs/desktop/image-photography.jpg);
+    }
+}
+
+@media (min-width: 768px) {
+    #toggle-menu{
+        display: none;
+    }
+    .navbar{
+        position: unset;
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        transform: translateX(0);
+        gap: 30px;
+    }
+
+    .navbar__item a{
+        color: var(--White);
+    }
+
+    .navbar__item:last-child a{
+        background-color: var(--White);
+    }
+
+    .navbar__item:last-child a:hover{
+        color: var(--White);
+        background-color: #6fcfff;
+        transition: all 0.4s;
+    }
+
+    #hero{
+        background-image: url(../imgs/desktop/image-header.jpg);
+    }
+
+    #transform, #stand-out{
+        height: 400px;
+        flex-direction: row-reverse;
+    }
+
+    #stand-out{
+        flex-direction: row;
+    }
+
+    .transform__img--mobile, .stand-out__img--mobile{
+        display: none;
+    }
+    
+    .transform__img--desktop, .stand-out__img--desktop{
+        display: block;
+        height: 100%;
+        width: 50%;
+    }
+    .stand-out__container, .transform__container{
+        padding-left: 30px;
+        width: 50%;
+        justify-content: center;
+        align-items: flex-start;
+        
+    }
+
+    .transform__title, .stand-out__title{
+        text-align: start;
+        width: 300px;
+    }
+
+    .stand-out__title{
+        width: 330px;
+    }
+
+    .transform__info, .stand-out__info{
+        padding: 40px 0;
+        text-align: start;
+        width: 90%;
+        max-width: unset;
+    }
+
+    .graphic-photography-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonials__container{
+        flex-direction: row;
+    }
+
+    .testimonials__user{
+        gap: 30px;
+    }
+
+    .gallery__mobile{
+        display: none;
+    }
+
+    .gallery__desktop{
+        display: flex;
+    }
+
+    .gallery__desktop img{
+        width: 25%;
+    }
+}
+
+@media (min-width: 1024px) {
+    html{
+        font-size: 13px;
+    }
+
+    .transform__title{
+        width: 350px;
+    }
+
+    .stand-out__title{
+        width: 440px;
+    }
+
+    .transform__info, .stand-out__info{
+        width: 400px;
+    }
+
+    .testimonials__container{
+        margin: 50px;
+    }
+
+    .testimonials__user__img{
+        height: 80px;
+    }
+
+    .testimonials__user{
+        height: 350px;
+        justify-content: space-between;
+    }
+    .testimonials__user__info{
+        width: 80%;
+        font-size: 1.1rem;
+    }
+
+    .testimonials__user__name{
+        padding: 10px 0 0 0;
+        font-size: 1.4rem;
+    }
+
+    .testimonials__user__position{
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    html{
+        font-size: 16px;
+    }
+
+    #transform, #stand-out{
+        height: 600px;
+    }
+
+    .transform__container, .stand-out__container{
+        margin: auto;
+        gap: 40px;
+    }
+
+    .transform__container__content, .stand-out__container__content{
+        margin: auto;
+        width: 70%;
+        max-width: 600px;
+    }
+
+    .transform__title, .stand-out__title{
+        width: 400px;
+    }
+
+    .transform__info, .stand-out__info{
+        width: unset;
+        line-height: 40px;
+    }
+
+    #graphic, #photography{
+        height: 800px;
+    }
+
+    .graphic__info, .photography__info{
+        padding: 60px 10px 50px 10px;
+        width: 500px;
+        line-height: 34px;
+    }
+
+    .testimonials__user__info{
+        width: 80%;
+        font-size: 0.9rem;
+    }
+
+    .testimonials__user__name{
+        padding: 10px 0 0 0;
+        font-size: 1.1rem;
+    }
+
+    .testimonials__user__position{
+        font-size: 1rem;
+    }
+
+    footer{
+        height: 500px;
+    }
+
+    .footer__links{
+        gap: 120px;
+    }
+
+    .footer__icons{
+        gap: 80px;
+    }
+}
+
