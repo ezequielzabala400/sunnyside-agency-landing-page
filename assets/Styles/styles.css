@@ -161,11 +161,18 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;       
+    align-items: center;
+    padding: 10px 0;       
+}
+.stand-out__container__content, .transform__container__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;      
 }
 
 .transform__title, .stand-out__title{
-    width: 320px;
+    width: 260px;
     text-align: center;
     font-size: 3rem;
     color: var(--Very-Dark-Desaturated-Blue);
@@ -173,9 +180,7 @@ body{
     font-weight: 900;
 }
 
-.transform__title{
-    width: 350px;
-}
+
 
 .transform__info, .stand-out__info{
     text-align: center;

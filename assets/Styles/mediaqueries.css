@@ -74,6 +74,10 @@
         
     }
 
+    .transform__container__content, .stand-out__container__content{
+        align-items: self-start;
+    }
+
     .transform__title, .stand-out__title{
         text-align: start;
         width: 300px;
